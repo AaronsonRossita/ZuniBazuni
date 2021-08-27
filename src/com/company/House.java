@@ -20,6 +20,12 @@ public class House {
         this.hasLawn = hasLawn;
     }
 
+    public House(House house){
+        this.windows = house.getWindows();
+        this.roofType = house.getRoofType();
+        this.hasLawn = house.hasLawn;
+    }
+
     public int getWindows() {
         return windows;
     }
@@ -51,5 +57,15 @@ public class House {
                 + " roof and the lawn is " + hasLawn;
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        House house = (House) obj;
+        if (this.windows == house.getWindows() && this.roofType == house.getRoofType()
+            && this.hasLawn == house.hasLawn){
+            return true;
+        }else{
+            return false;
+        }
+//        return super.equals(obj);
+    }
 }
