@@ -9,7 +9,6 @@ public class Main {
 
         boolean trueOrFalse = true;
 
-
         byte a2 = 127;
         short a3 = 32767;
         int a = 5;
@@ -28,7 +27,6 @@ public class Main {
         String b4 = "Hello";
 
 
-
 //        int[] arr = {1,2,3,4};
 //
 //
@@ -39,7 +37,7 @@ public class Main {
 //            System.out.println("the strings are different");
 //        }
 //
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Please enter the first word");
 //        b2 = scanner.next();
 //        System.out.println("Please enter the second word");
@@ -105,33 +103,33 @@ public class Main {
 //
 //        System.out.println(red);
 //        System.out.println(green);
-        System.out.println("Please enter a number");
-        int number = scanner.nextInt();
-
-
-        switch (number){
-            case 1:
-                System.out.println(hundred(number));;
-                break;
-            case 2:
-                System.out.println("two");
-                break;
-            case 3:
-                System.out.println("three");
-                break;
-            case 4:
-                System.out.println("four");
-                break;
-            default:
-                System.out.println("please enter a number between 1 and 4");
-        }
-
+//        System.out.println("Please enter a number");
+//        int number = scanner.nextInt();
+//
+//
+//        switch (number){
+//            case 1:
+//                System.out.println(hundred(number));;
+//                break;
+//            case 2:
+//                System.out.println("two");
+//                break;
+//            case 3:
+//                System.out.println("three");
+//                break;
+//            case 4:
+//                System.out.println("four");
+//                break;
+//            default:
+//                System.out.println("please enter a number between 1 and 4");
+//        }
+//
+//    }
+//
+//
+//    public static int hundred (int n){
+//        return n + 99;
+//    }
     }
-
-
-    public static int hundred (int n){
-        return n + 99;
-    }
-
 }
 
