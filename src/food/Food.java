@@ -51,7 +51,4 @@ public class Food {
                 + " and it is " + a + " at the store";
     }
 
-
-
-
 }

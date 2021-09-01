@@ -26,6 +26,8 @@ public class Main {
         String b3 = "Hello";
         String b4 = "Hello";
 
+        System.out.println("hello world");
+
 
 //        int[] arr = {1,2,3,4};
 //
