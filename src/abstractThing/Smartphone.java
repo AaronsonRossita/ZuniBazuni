@@ -17,4 +17,6 @@ public class Smartphone extends Phone {
     void text() {
         System.out.println("whatsapp or sms");
     }
+
+
 }
