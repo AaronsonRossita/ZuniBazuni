@@ -1,6 +1,10 @@
 package com.company;
 
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
@@ -26,7 +30,7 @@ public class Main {
         String b3 = "Hello";
         String b4 = "Hello";
 
-        System.out.println("hello world");
+//        System.out.println("hello world");
 
 
 //        int[] arr = {1,2,3,4};
@@ -131,7 +135,49 @@ public class Main {
 //
 //    public static int hundred (int n){
 //        return n + 99;
-//    }
+//
+//           index       0,  1,  2,  3
+//        char[] arr = {'a','b','c','d'};
+//
+//        arr[0] = 'e';
+//        System.out.println(arr);
+//        arr[4] = 'c';
+
+        LinkedList link1 = new LinkedList();
+        link1.add(4);
+        link1.add("blah");
+        link1.add("another one");
+        link1.add(true);
+        link1.add(new House(3));
+        link1.add(new Calculator());
+
+        System.out.println(link1);
+
+//        LinkedList<Integer> link2 = new LinkedList<>();
+//        link2.add(3);
+//        link2.add(5);
+//        link2.add(6);
+//        System.out.println(link2);
+
+        Iterator it = link1.iterator();
+        int r = 0;
+        while (it.hasNext()){
+            System.out.println(r++);
+            if (it.next().getClass() == Boolean.class){
+                System.out.println("found it");
+            }
+        }
+
+//        ArrayList arrLink1 = new ArrayList();
+//        arrLink1.add("String word");
+//        arrLink1.add(4);
+//        System.out.println(arrLink1);
+//
+//        ArrayList<String> arrLink2 = new ArrayList<>();
+//        arrLink2.add("Hi");
+//        arrLink2.add("Hello");
+//        System.out.println(arrLink2);
+
     }
 }
 

@@ -7,6 +7,8 @@ public class Tech {
         Smartphone s = new Smartphone(546574969,"Iphone");
         Phone.call();
         s.call();
+
+
     }
 
 }
