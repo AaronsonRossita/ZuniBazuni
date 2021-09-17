@@ -1,10 +1,16 @@
 package food;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+enum EnumTypes{
+    CUCUMBER, TOMATO, CARROT;
+}
 
 public class Store {
 
+
+
     public static void main(String[] args) {
+
+
 
 
     }

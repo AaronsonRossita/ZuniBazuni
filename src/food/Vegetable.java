@@ -1,12 +1,19 @@
 package food;
 
+import com.sun.codemodel.internal.JSwitch;
+
+
+
 public class Vegetable extends Food {
 
     private String nameOfVeggie;
 
+
     public Vegetable(String type, boolean availability) {
         super(type, availability);
     }
+
+
 
     public String getNameOfVeggie() {
         return nameOfVeggie;
