@@ -219,7 +219,10 @@ public class Main {
 //        example5(4,0);
 //        example8();
 //        example5(4,0);
-        example9();
+//        example9();
+        example10(6);
+
+        System.out.println("didn't stop");
 
     }
 
@@ -307,6 +310,17 @@ public class Main {
                 System.out.println("caught you again");
             }
         }
+
+    }
+
+    static void example10(int x) throws OurException{
+
+        if(x > 5){
+            throw new OurException(x + " is larger than 5");
+        }else{
+            System.out.println(x + " is smaller than 5");
+        }
+
 
     }
 
