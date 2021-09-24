@@ -220,9 +220,23 @@ public class Main {
 //        example8();
 //        example5(4,0);
 //        example9();
-        example10(6);
+//        example10(6);
 
-        System.out.println("didn't stop");
+        String name = "Rossita";
+//        System.out.println(name.charAt(3));
+//        System.out.println(name.length());
+//        char[] arr = {'a','b','c'};
+//        String s = new String(arr);
+//        System.out.println(name.concat("sit"));
+//        System.out.println(Character.toUpperCase('a'));
+
+//        System.out.println(name.indexOf("sit"));
+//        name.replace("ta","s");
+//        System.out.println(name);
+//
+//        StringBuffer buffer = new StringBuffer("Rossita");
+//        buffer.insert(4,'d');
+//        System.out.println(buffer);
 
     }
 
