@@ -11,7 +11,7 @@ public class InterfaceRunner {
         Circle c1 = new Circle();
 
         s1.draw();
-        s1.getArea();
+//        s1.getArea();
         c1.doubleCircle();
 
 //        process(s1);
@@ -21,7 +21,7 @@ public class InterfaceRunner {
     }
 
     public static void process (Shape s){
-        System.out.println(s.getArea());
+//        System.out.println(s.getArea());
         System.out.println(s.draw());
     }
 

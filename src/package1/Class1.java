@@ -1,11 +1,13 @@
 package package1;
 
+
 public class Class1 {
 
     int a = 1;
     public int b = 2;
     private int c = 3;
     protected int d = 4;
+
 
 
     void one(){
