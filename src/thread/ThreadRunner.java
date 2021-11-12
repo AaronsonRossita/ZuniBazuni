@@ -29,18 +29,31 @@ public class ThreadRunner {
 
 //        System.out.println(Thread.activeCount());
 //        System.out.println(myThread.isAlive());
-
-
+//
+//
 //        myThread.setName("My new thread");
 //        System.out.println(myThread.getName());
 //
 //        System.out.println(Thread.currentThread().getPriority());
 //        System.out.println("MyThread priority is = " + myThread.getPriority());
+//
+//        System.out.println(myThread.isDaemon());
+//        Thread.sleep(5000);
+//        myThread.setDaemon(true);
+//        System.out.println("is myThread deamon now = " + myThread.isDaemon());
 
-        System.out.println(myThread.isDaemon());
-        Thread.sleep(5000);
-        myThread.setDaemon(true);
-        System.out.println("is myThread deamon now = " + myThread.isDaemon());
+        MyRunnableThread mrt = new MyRunnableThread();
+
+        mrt.run();
+
+        Thread newThread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("newThread is running");
+            }
+        });
+
+        newThread.start();
 
     }
 

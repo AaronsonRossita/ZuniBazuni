@@ -11,7 +11,5 @@ public class MyThread extends Thread {
             e.printStackTrace();
         }
         System.out.println("MyThread is still running");
-
     }
-
 }
